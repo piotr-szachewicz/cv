@@ -189,7 +189,7 @@
          \marginpar{
          \raggedright \scshape #1}#2}
 
-% An itemize-style list with lots of space between items
+% An outerlist-style list with lots of space between items
 \newenvironment{outerlist}[1][\enskip\textbullet]%
         {\begin{itemize}[#1]}{\end{itemize}%
          \vspace{-.6\baselineskip}}
@@ -202,7 +202,7 @@
         \setlength{\topsep}{0pt}}}
         {\end{list}\vspace{-.6\baselineskip}}
 
-% An itemize-style list with little space between items
+% An outerlist-style list with little space between items
 \newenvironment{innerlist}[1][\enskip\textbullet]%
         {\begin{compactitem}[#1]}{\end{compactitem}}
 
@@ -232,8 +232,8 @@
 %
 
 \begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
-  e-mail: \href{mailto:piotr.szachewicz@gmail.com}{piotr.szachewicz@gmail.com} & \multirow{3}{*}{\includegraphics[scale=0.18]{photo.jpg}}\\
-  github: \href{https://github.com/piotr-szachewicz}{https://github.com/piotr-szachewicz}\\
+  e-mail: \href{mailto:piotr.szachewicz@gmail.com}{piotr.szachewicz@gmail.com}\\ %& \multirow{3}{*}{\includegraphics[scale=0.48]{photo.jpg}}\\
+%  github: \href{https://github.com/piotr-szachewicz}{https://github.com/piotr-szachewicz}\\
 \end{tabular}
 
 %\section{Date of birth}
@@ -270,7 +270,7 @@
 	\begin{outerlist}
 		\item[] \textbf{Product:} Content Compliance systems, proactive detection of policy violating content, systems to review flagged content.
 		\item[] \textbf{Technologies:} Java, GKE, Salesforce
-		\item[] \textbf{Other responsibilities:} driving design discussions with stakeholders and other teams, writing RFCs, interviewing, helping to onboard new colleagues, sponsoring my colleagues, helping to organize internal conferences, mentor in an internal Spotify mentoring program, member of a tribe Technical Steering Group.\\
+		\item[] \textbf{Other responsibilities:} driving design discussions with stakeholders and other teams, writing RFCs, interviewing, onboarding new colleagues, helping to organize internal conferences, mentor in an internal Spotify mentoring program, member of a Technical Steering Group.\\
 	\end{outerlist}
 
 
@@ -289,72 +289,71 @@
 
 \textbf{October 2014 - April 2017} -- Sage -- \textbf{Senior Ruby on Rails Developer}\\(Barcelona, Spain).
 
-\begin{itemize}
-  \item \textbf{Product:} \href{http://uk.sageone.com/}{Sage Business Cloud Accounting} -- online accounting software.
-  \item \textbf{Tools:} Ruby on Rails, React.\\
-\end{itemize}
+\begin{outerlist}
+  \item[] \textbf{Product:} \href{http://uk.sageone.com/}{Sage Business Cloud Accounting} -- online accounting software.
+  \item[] \textbf{Tools:} Ruby on Rails, React.\\\\
+\end{outerlist}
 
 \textbf{January 2013 - September 2014} -- Titanis -- \textbf{Python Developer} (Poznań, Poland).
 
-\begin{itemize}
- \item \textbf{Product:} \href{http://neuro-forma.com}{Neuroforma}, neurorehabilitation software with elements of virtual reality.
- \item \textbf{Tools:} Python, Django, CoffeeScript.
-\end{itemize}
+\begin{outerlist}
+ \item[] \textbf{Product:} \href{http://neuro-forma.com}{Neuroforma}, neurorehabilitation software with elements of virtual reality.
+ \item[] \textbf{Tools:} Python, Django, CoffeeScript.\\
+\end{outerlist}
 
 %\pagebreak
 
 %\textbf{July 2011 - September 2011} -- Titanis -- \textbf{C++ Developer}.
-%\begin{itemize}
+%\begin{outerlist}
 %  \item Product: Eyetracker, software for a head-mounted eyetracker.
 %  \item Tools: C++, openFrameworks, video image processing.
-  %\item \url{http://git.nimitz.pl/eyetracker.git}
-%\end{itemize}
+  %\item \url{http://git.nimitz.pl/eyetracker.git}\\
+%\end{outerlist}
 
 \textbf{May 2011 - September 2011} -- Alliance Technology -- \textbf{Java EE Developer}.
-\begin{itemize}
-  \item \textbf{Product:} banking software.
-  \item \textbf{Tools:} Java EE, Hibernate.
-\end{itemize}
+\begin{outerlist}
+  \item[] \textbf{Product:} banking software.
+  \item[] \textbf{Tools:} Java EE, Hibernate.\\
+\end{outerlist}
 
 \textbf{August 2010 - January 2013} -- Titanis -- \textbf{Java Developer}.
-\begin{itemize}
-  \item \textbf{Product:} \href{https://github.com/BrainTech/svarog}{Svarog} -- EEG signal viewer, annotator, analyzer and recorder.
-  \item Tools: Java, Maven, digital signal processing.
-\end{itemize}
+\begin{outerlist}
+  \item[] \textbf{Product:} \href{https://github.com/BrainTech/svarog}{Svarog} -- EEG signal viewer, annotator, analyzer and recorder.
+  \item[] Tools: Java, Maven, digital signal processing.\\
+\end{outerlist}
 
 \textbf{October 2009 - January 2010} -- Adam Mickiewicz University -- \textbf{Teaching Assistant}.
-\begin{itemize}
- \item Human-Computer Interaction laboratory practical classes.
-\end{itemize}
+\begin{outerlist}
+ \item[] Human-Computer Interaction laboratory practical classes.\\
+\end{outerlist}
 
 %\item[] \textbf{2006 - 2009} -- sound engineer in Blue Note Jazz Club, Poznań.
 
 \section{Other projects}
 
 \textbf{March 2012 - November 2013} -- Poznan University of Technology -- publication.
-\begin{itemize} 
-  \item \textbf{Project:} \href{http://goo.gl/Q9VUsw}{Automatic species counterpoint composition by means of the dominance relation}.
-  \item \textbf{Tools:} Java, Python, Latex.
-  \item Published in \href{http://goo.gl/Q9VUsw}{"Journal of Mathematics and Music"}, 2015.
-\end{itemize}
+\begin{outerlist} 
+  \item[] \textbf{Project:} \href{http://goo.gl/Q9VUsw}{Automatic species counterpoint composition by means of the dominance relation}. Published in \href{http://goo.gl/Q9VUsw}{"Journal of Mathematics and Music"}, 2015.
+  \item[] \textbf{Tools:} Java, Python, Latex.\\
+\end{outerlist}
 
 \textbf{June 2012 - June 2013} -- Poznan University of Technology -- \textbf{MSc Eng thesis}.
-\begin{itemize}
-  \item \textbf{Project:} \href{https://github.com/piotr-szachewicz/event-related-desynchronization}{Classification of Motor Imagery for Brain-Computer Interfaces.}
-  \item \textbf{Tools:} Python, Machine Learning, EEG, DSP.
-\end{itemize}
+\begin{outerlist}
+  \item[] \textbf{Project:} \href{https://github.com/piotr-szachewicz/event-related-desynchronization}{Classification of Motor Imagery for Brain-Computer Interfaces.}
+  \item[] \textbf{Tools:} Python, Machine Learning, EEG, DSP.\\
+\end{outerlist}
 
 \textbf{September 2011 - January 2012} -- Poznan University of Technology -- \textbf{BSc Eng~thesis}.
-\begin{itemize}
-  \item \textbf{Project:} developing scholarship module for Sokrates 2 -- a computer system for managing teaching at universities created by the Poznań University of Technology.
-  \item \textbf{Tools:} Java EE, Maven, Apache CXF, Adobe Flex, Hibernate, Oracle Database.
-\end{itemize}
+\begin{outerlist}
+  \item[] \textbf{Project:} developing scholarship module for Sokrates 2 -- a computer system for managing teaching at universities created by the Poznań University of Technology.
+  \item[] \textbf{Tools:} Java EE, Maven, Apache CXF, Adobe Flex, Hibernate, Oracle Database.\\
+\end{outerlist}
 
 
 
 %\section{Conferences/Papers}
 
-%\begin{itemize}
+%\begin{outerlist}
 
 %\item[] \textbf{2013} -- M. Komosiński, P. Szachewicz, ``Automatic species counterpoint composition using the dominance relation'' (paper; in progress)
 
@@ -364,14 +363,14 @@
 
 %\item[] \textbf{January 2009} -- 4th Poznań Cognitive Science Forum -- ``How to build an artificial artist? Review of approaches to artificial art generation.'' (speech + paper).
 
-%\end{itemize}
+%\end{outerlist}
 
 %\section{Skills}
 
 %web-related:
-%\begin{itemize}
+%\begin{outerlist}
 % \item CoffeeScript, jQuery, jQuery UI, Django, RESTful WebServices, PHP
-%\end{itemize}
+%\end{outerlist}
 
 %Java related -- Java, Java Enterprise Edition, JUnit, Maven \\
 %databases --- Relational Databases, ORM (Hibernate, Django ORM)
